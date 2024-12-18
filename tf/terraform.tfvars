@@ -1,0 +1,14 @@
+ami                         = "ami-0e252be8f4dfa2c0d"
+cluster_name		        = "cit262-cluster"
+container_image             = "mikekwom/itm350-mikekwom-bb:lastest"
+container_port              = 8080
+instance_name_prefix	    = "cit262-node"
+instance_type               = "t2.micro"
+lab_role                    = "arn:aws:iam::077194234074:role/LabRole"
+region                      = "us-west-2"
+vpc_cidr		            = "10.0.0.0/16"
+vpc_prefix		            = "ecs-vpc"
+nat_gateway_eip             = "eipalloc-0e70de7ae5dce84c1"
+asg_min_size                = 1
+asg_max_size                = 3  
+asg_desired_capacity        = 2   
