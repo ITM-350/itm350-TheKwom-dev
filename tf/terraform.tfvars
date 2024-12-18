@@ -1,6 +1,6 @@
 ami                         = "ami-0e252be8f4dfa2c0d"
 cluster_name		        = "cit262-cluster"
-container_image             = "mikekwom/itm350-mikekwom-bb:lastest"
+container_image             = "mikekwom/itm350-mikekwom-bb:latest"
 container_port              = 8080
 instance_name_prefix	    = "cit262-node"
 instance_type               = "t2.micro"
